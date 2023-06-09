@@ -36,6 +36,8 @@
 
 > 프로젝트 소요기간 : 5월 25일 ~ ing <br>
 개발인원 : 9조 **[DevBinx 김정빈]**
+
+![](https://geps.dev/progress/30)
 <hr><br>
 
 06.02 Friday
