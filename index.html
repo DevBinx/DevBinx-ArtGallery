@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--  페이지 타이틀-->
+  <title>ArtGallery</title>
+
+  <!--  아이콘 import-->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- 부트스트랩 스타일시트-->
+  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- 기타 라이브러리 import-->
+  <link href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+
+  <!-- 메인 스타일 시트-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+
+    <!-- index navbar -->
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span
+              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+              class="icon-bar"></span></button><a class="navbar-brand" href="index.html">ArtGallery</a>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="#totop" data-toggle="dropdown">Home</a>
+            </li>
+
+            <!-- Gallery dropdown -->
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about1.html">About 1</a></li>
+                    <li><a href="about2.html">About 2</a></li>
+                    <li><a href="about3.html">About 3</a></li>
+                    <li><a href="about4.html">About 4</a></li>
+                    <li><a href="about5.html">About 5</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="service1.html">Service 1</a></li>
+                    <li><a href="service2.html">Service 2</a></li>
+                    <li><a href="service3.html">Service 3</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pricing</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pricing1.html">Pricing 1</a></li>
+                    <li><a href="pricing2.html">Pricing 2</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="gallery_col_2.html">2 Columns</a></li>
+                    <li><a href="gallery_col_3.html">3 Columns</a></li>
+                    <li><a href="gallery_col_4.html">4 Columns</a></li>
+                    <li><a href="gallery_col_6.html">6 Columns</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Contact</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="contact1.html">Contact 1</a></li>
+                    <li><a href="contact2.html">Contact 2</a></li>
+                    <li><a href="contact3.html">Contact 3</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Restaurant menu</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="restaurant_menu1.html">Menu 2 Columns</a></li>
+                    <li><a href="restaurant_menu2.html">Menu 3 Columns</a></li>
+                  </ul>
+                </li>
+                <li><a href="login_register.html">Login / Register</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="404.html">Page 404</a></li>
+              </ul>
+            </li>
+
+            <!-- Blog dropdown -->
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Standard</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog_standard_left_sidebar.html">Left Sidebar</a></li>
+                    <li><a href="blog_standard_right_sidebar.html">Right Sidebar</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Grid</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog_grid_col_2.html">2 Columns</a></li>
+                    <li><a href="blog_grid_col_3.html">3 Columns</a></li>
+                    <li><a href="blog_grid_col_4.html">4 Columns</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Masonry</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog_grid_masonry_col_2.html">2 Columns</a></li>
+                    <li><a href="blog_grid_masonry_col_3.html">3 Columns</a></li>
+                    <li><a href="blog_grid_masonry_col_4.html">4 Columns</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Single</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog_single_left_sidebar.html">Left Sidebar</a></li>
+                    <li><a href="blog_single_right_sidebar.html">Right Sidebar</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Contact Page href -->
+            <li>
+              <a href="contact.html">
+                <div>Contact</div>
+              </a>
+            </li>
+
+            <!-- Login & Register Page href -->
+            <li>
+              <a href="login_register.html">My
+                <div class="icon-profile-male"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Main -->
+    <section class="home-section home-parallax home-fade home-full-height bg-dark-30" id="home"
+      data-background="assets/images/ArtGallery-main-image.png">
+      <div class="titan-caption">
+        <div class="caption-content">
+          <div class="font-apple mb-30 titan-title-size-1">다양한 예술 작품, 하나의 화면에서.</div>
+          <div class="font-alt mb-40 titan-title-size-4">ArtGallery</div><a
+            class="section-scroll btn btn-border-w btn-round" href=".main">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vincent Van Gogh - Starry Night Content -->
+    <div class="main">
+      <section class="module bg-dark-90 pt-200 pb-200 parallax-bg testimonial" id="about"
+        data-background="assets/images/the-starry-night_bg.jpg">
+        <div class="container mb-80">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div class="module-subtitle font-apple large-text wow fadeInUp mb-60">
+                <span class="font-hel">Vincent Van Gogh, Leonardo Da
+                  Vinci</span> 와 같은<br>
+                <b>한 시대를 대표하는 예술가들</b>의 작품.
+              </div>
+              <div class="module-subtitle font-serif wow fadeInUp">
+                Vincent Willem Van Gogh, The Starry Night<br>
+                1889
+                <br><br><br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 예술가, Artist 인물리스트 -->
+      <section class="module bg-dark" id="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Artist</h2>
+              <div class="module-subtitle font-serif">Great things do not just happen by impulse,
+                but as a succession of small things linked together.</div>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- 빈센트 반 고흐 -->
+            <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+              <div class="team-item">
+                <div><a href="#"><img src="assets/images/artist/van-gogh-portrait.png" alt="Member Photo" /></a>
+                </div>
+                <div class="team-descr font-alt">
+                  <div class="team-name" style="color: white;">Vincent Willem Van Gogh</div>
+                  <div class="team-role">Year 1853 ~ 1890</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 레오나르도 다 빈치 -->
+            <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+              <div class="team-item">
+                <div><a href="#"><img src="assets/images/artist/da-vinci-portrait.png" alt="Member Photo" /></a>
+                </div>
+                <div class="team-descr font-alt">
+                  <div class="team-name" style="color: white;">Leonardo di ser Piero da Vinci</div>
+                  <div class="team-role">Year 1452 ~ 1519</div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+              <div class="team-item">
+                <div><a href="#"><img src="assets/images/team-1.jpg" alt="Member Photo" /></a>
+                </div>
+                <div class="team-descr font-alt">
+                  <div class="team-name" style="color: white;">Jim Stone</div>
+                  <div class="team-role">Art Director</div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
+              <div class="team-item">
+                <div><a href="#"><img src="assets/images/team-1.jpg" alt="Member Photo" /></a>
+                </div>
+                <div class="team-descr font-alt">
+                  <div class="team-name" style="color: white;">Jim Stone</div>
+                  <div class="team-role">Art Director</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 예술 작품 포스트 -->
+      <hr class="divider-d">
+      <section class="module bg-dark" id="news">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Masterpiece</h2>
+              <div class="module-subtitle font-serif">Great things do not just happen by impulse,
+                but as a succession of small things linked together.</div>
+            </div>
+          </div>
+          <div class="row multi-columns-row post-columns">
+
+            <!-- 별이 빛나는 밤 -->
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="post mb-20">
+                <div class="team-image"><a href="#"><img src="assets/images/artist/the-starry-night-800x460.jpg"
+                      alt="Blog-post Thumbnail" /></a></div>
+                <div class="post-header font-alt">
+                  <h2 class="post-title"><a href="#">The Starry Night</a></h2>
+                  <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year 1890
+                  </div>
+                </div>
+                <div class="post-entry font-apple">
+                  <p>위대한 일은 충동적으로 일어나는 것이 아니라
+                    함께 연결된 작은 일들의 연속으로 일어난다.</p>
+                </div>
+                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+              </div>
+            </div>
+
+            <!-- 최후의 만찬 -->
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="post mb-20">
+                <div class="post-thumbnail"><a href="#"><img src="assets/images/la-ultima-cena-800x460.jpg"
+                      alt="Blog-post Thumbnail" /></a></div>
+                <div class="post-header font-alt">
+                  <h2 class="post-title"><a href="#">La última cena</a></h2>
+                  <div class="post-meta">By&nbsp;<a href="#">Leonardo Da Vinci</a>&nbsp;| Year 1490
+                  </div>
+                </div>
+                <div class="post-entry font-apple">
+                  <p>아름다움은 삶에서는 사라지지만 예술에서는 불멸이다.</p>
+                </div>
+                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="post mb-20">
+                <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg"
+                      alt="Blog-post Thumbnail" /></a></div>
+                <div class="post-header font-alt">
+                  <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
+                  <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
+                  </div>
+                </div>
+                <div class="post-entry">
+                  <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                    which I enjoy with my whole heart.</p>
+                </div>
+                <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <hr class="divider-d">
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="copyright font-alt">&copy; 2023&nbsp;<a href="index.html">ArtGallery</a>, All Rights Reserved
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
+                    class="fa fa-skype"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+
+  <!-- JavaScript 라이브러리 import -->
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
