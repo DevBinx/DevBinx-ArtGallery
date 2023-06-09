@@ -38,49 +38,5 @@
 개발인원 : 9조 **[DevBinx 김정빈]**
 
 ![](https://geps.dev/progress/30)
-<hr><br>
-
-06.02 Friday
-<br>
-
-**프로젝트 자체가 오픈소스 프로젝트이기 때문에<br>
-향후 유지보수가 용이하게끔 코드 작성 시 로직별로 주석 작업을 하고 있습니다.**
-<br>
-
-ex) <br>
-```index.html```
-
-<img src="https://github.com/DevBinx/DevBinx-Project/assets/85083733/2dd2e60c-baae-406e-9506-302785d46485"  width="500">
-<hr><br>
-
-06.02 Friday <br>
-
-**웹 사이트 UI 기획 단계에서, 더 나은 사용자 경험을 제공하기 위해 반응형 웹 디자인을 설계했습니다.**
-<br>
-
-```PC```
-<br>
-<img src="https://github.com/DevBinx/DevBinx-Project/assets/85083733/56837e00-10f1-4fcb-8667-bb3fcdd89f2e"  width="500">
-<br>
-
-```모바일```
-<br>
-<img src="https://github.com/DevBinx/DevBinx-Project/assets/85083733/3b9d9f0c-96cf-4a00-a83e-bf3b75e62fb5"  width="300">
-<hr><br>
-
-06.05 Monday
-<br>
-
-**인물 리스트와 예술 작품들의 포스트 미리보기 섹션을 추가했습니다.**
-
-```인물 리스트```
-<br>
-<img src="https://github.com/DevBinx/DevBinx-Project/assets/85083733/c4ba334f-06f8-4f4d-9472-9086016ee44a"  width="500">
-<br>
-
-```포스트 미리보기```
-<br>
-<img src="https://github.com/DevBinx/DevBinx-Project/assets/85083733/b0e451c1-a17e-4cf7-92e2-d61845b59d5c"  width="500">
-<hr><br>
 
 [DevBinx 김정빈]: https://github.com/DevBinx
