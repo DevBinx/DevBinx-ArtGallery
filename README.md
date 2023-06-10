@@ -4,7 +4,8 @@
 > 빈센트 반 고흐, 레오나르도 다빈치, 앤디 워홀 등 다양한 예술가의 작품들을
 갤러리 형태로 한 눈에 볼 수 있으면 예술 작품에 대한 접근성을 개선할 수 있지 않을까?
 
-이러한 생각이 프로젝트 개발의 기초가 되었습니다.
+이러한 생각이 프로젝트 개발의 기초가 되었습니다. <br>
+
 
 ## 💻 Tech Skill For Development
 ### Front-end
@@ -37,6 +38,11 @@
 > 프로젝트 소요기간 : 5월 25일 ~ ing <br>
 개발인원 : 9조 **[DevBinx 김정빈]**
 
-![](https://geps.dev/progress/30)
+![](https://geps.dev/progress/35)
+
+## 📝 Releases
+
+**[ArtGallery Release 1.0]**
 
 [DevBinx 김정빈]: https://github.com/DevBinx
+[ArtGallery Release 1.0]: https://github.com/DevBinx/DevBinx-ArtGallery/releases/tag/artgallery-1.0
