@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  페이지 타이틀-->
+    <title>ArtGallery</title>
+
+    <!--  아이콘 import-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-art-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-art-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-art-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-art-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-art-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-art-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-art-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-art-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-art-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-art-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/art-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/art-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/art-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- 부트스트랩 스타일시트-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 기타 라이브러리 import-->
+    <link href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+
+    <!-- 메인 스타일 시트-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+
+        <!-- index navbar -->
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse"
+                        data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span
+                            class="icon-bar"></span><span class="icon-bar"></span><span
+                            class="icon-bar"></span></button><a class="navbar-brand" href="index.html">ArtGallery</a>
+                </div>
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a href="#totop" data-toggle="dropdown">Home</a>
+                        </li>
+
+                        <!-- Gallery dropdown -->
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a>
+                            <ul class="dropdown-menu">
+
+                                <!-- 반 고흐 갤러리-->
+                                <li class="dropdown"><a href="gall-vangogh.html" data-toggle="dropdown">Vincent Van
+                                        Gogh</a>
+                                </li>
+                                <!-- 반 고흐 갤러리-->
+
+                                <!-- 다빈치 갤러리-->
+                                <li class="dropdown"><a href="gall-davinci.html" data-toggle="dropdown">Leonardo Da
+                                        Vinci</a>
+                                </li>
+                                <!-- 다빈치 갤러리-->
+
+                                <!-- 피카소 갤러리-->
+                                <li class="dropdown"><a href="gall-picasso.html" data-toggle="dropdown">Pablo
+                                        Picasso</a>
+                                </li>
+                                <!-- 피카소 갤러리-->
+
+                                <!-- 모네 갤러리-->
+                                <li class="dropdown"><a href="gall-monet.html" data-toggle="dropdown">Claude Monets</a>
+                                </li>
+                                <!-- 모네 갤러리-->
+
+                                <!-- 프랑수아 밀레 갤러리-->
+                                <li class="dropdown"><a href="gall-millet.html" data-toggle="dropdown">Jean-François
+                                        Millet</a>
+                                </li>
+                                <!-- 프랑수아 밀레 갤러리-->
+
+                                <!-- 고갱 갤러리-->
+                                <li class="dropdown"><a href="gall-gauguin.html" data-toggle="dropdown">Paul Gauguin</a>
+                                </li>
+                                <!-- 고갱 갤러리-->
+
+                                <!-- 뭉크 갤러리-->
+                                <li class="dropdown"><a href="gall-munch.html" data-toggle="dropdown">Edvard Munch</a>
+                                </li>
+                                <!-- 뭉크 갤러리-->
+
+                                <!-- 앤디 워홀 갤러리-->
+                                <li class="dropdown"><a href="gall-warhol.html" data-toggle="dropdown">Andy Warhol</a>
+                                </li>
+                                <!-- 앤디 워홀 갤러리-->
+
+                            </ul>
+                        </li>
+                        <!-- Gallery dropdown -->
+
+                        <!-- Blog dropdown -->
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+
+                                <!-- 반 고흐 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-vangogh.html"
+                                        data-toggle="dropdown">Vincent Van
+                                        Gogh</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="vangogh-starrynight.html">The Starry Night</a></li>
+                                        <li><a href="vangogh-sunflower.html">Sunflower</a></li>
+                                        <li><a href="vangogh-port.html">Self-portrait</a></li>
+                                        <li><a href="vangogh-terrace.html">Café Terrace at Night</a></li>
+                                        <li><a href="vangogh-bedroom.html">Bedroom in Arles</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 반 고흐 작품 리스트 드롭다운-->
+
+                                <!-- 다빈치 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-davinci.html"
+                                        data-toggle="dropdown">Leonardo Da
+                                        Vinci</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="davinci-cena.html">La Ultima cena</a></li>
+                                        <li><a href="davinci-mundi.html">Salvator Mundi</a></li>
+                                        <li><a href="davinci-monalisa.html">Mona Lisa</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 다빈치 작품 리스트 드롭다운-->
+
+                                <!-- 피카소 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-picasso.html"
+                                        data-toggle="dropdown">Pablo
+                                        Picasso</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="picasso-guita.html">The Old Guitarist</a></li>
+                                        <li><a href="picasso-pipe.html">Garcon a la Pipe</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 피카소 작품 리스트 드롭다운-->
+
+                                <!-- 모네 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-monet.html"
+                                        data-toggle="dropdown">Claude
+                                        Monets</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="monet-sunrise.html">Sunrise</a></li>
+                                        <li><a href="monet-terrasse.html">Terrasse a sainte adresse</a></li>
+                                        <li><a href="monet-garden.html">Woman in the garden</a></li>
+                                        <li><a href="monet-parasol.html">Woman with a Parasol</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 모네 작품 리스트 드롭다운-->
+
+                                <!-- 프랑수아 밀레 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-millet.html"
+                                        data-toggle="dropdown">Jean-François
+                                        Millet</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="millet-glan.html">Des glaneuses</a></li>
+                                        <li><a href="millet-angelus.html">Angelus</a></li>
+                                        <li><a href="millet-port.html">Self-portrait</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 프랑수아 밀레 작품 리스트 드롭다운-->
+
+                                <!-- 고갱 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-gauguin.html"
+                                        data-toggle="dropdown">Paul
+                                        Gauguin</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="gauguin-christ.html">Le christ jaune</a></li>
+                                        <li><a href="gauguin-woman.html">Washer woman</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 고갱 작품 리스트 드롭다운-->
+
+                                <!-- 뭉크 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-munch.html"
+                                        data-toggle="dropdown">Edvard
+                                        Munch</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="munch-scream.html">The Scream</a></li>
+                                        <li><a href="munch-port.html">Self-portrait</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 뭉크 작품 리스트 드롭다운-->
+
+                                <!-- 앤디 워홀 작품 리스트 드롭다운-->
+                                <li class="dropdown"><a class="dropdown-toggle" href="blog-warhol.html"
+                                        data-toggle="dropdown">Andy
+                                        Warhol</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="warhol-cans.html">Campbell's Soup Cans</a></li>
+                                        <li><a href="warhol-marilyn.html">Shot sage blue marilyn</a></li>
+                                    </ul>
+                                </li>
+                                <!-- 앤디 워홀 작품 리스트 드롭다운-->
+
+                            </ul>
+                        </li>
+                        <!-- Blog dropdown -->
+
+                        <!-- Contact Page href -->
+                        <li>
+                            <a href="contact.html">
+                                <div>Contact</div>
+                            </a>
+                        </li>
+                        <!-- Contact Page href -->
+
+                        <!-- Login & Register Page href -->
+                        <li>
+                            <a href="login_register.html">My
+                                <div class="icon-profile-male"></div>
+                            </a>
+                        </li>
+                        <!-- Login & Register Page href -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- index navbar -->
+
+        <div class="main">
+
+            <!-- 메인헤더섹션 -->
+            <section class="module bg-dark-60 blog-page-header" data-background="assets/images/blog_bg.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt">Vincent Van Gogh</h2>
+                            <div class="module-subtitle font-serif">Great things do not just happen by impulse,
+                                but as a succession of small things linked together.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 메인헤더섹션 -->
+
+            <!-- 포스트 및 사이드바 섹션 -->
+            <section class="module">
+                <div class="container">
+                    <div class="row">
+                        <!-- 포스트 섹션 -->
+                        <div class="col-sm-8">
+                            <div class="row multi-columns-row post-columns">
+
+                                <!-- The Starry Night Post -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="post">
+                                        <div class="post-thumbnail"><a href="vangogh-starrynight.html"><img
+                                                    src="assets/images/thumbnail/the-starry-night_th.jpg"
+                                                    alt="Blog-post Thumbnail" /></a></div>
+                                        <div class="post-header font-alt">
+                                            <h2 class="post-title"><a href="vangogh-starrynight.html">The Starry
+                                                    Night</a></h2>
+                                            <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year
+                                                1890
+                                            </div>
+                                        </div>
+                                        <div class="post-entry font-apple">
+                                            <p><b>The Starry Night</b> is an oil-on-canvas painting by the Dutch
+                                                Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it
+                                                depicts the view from the east-facing window of his asylum room at
+                                                Saint-Rémy-de-Provence, just before sunrise, with the addition of an
+                                                imaginary village.</p>
+                                        </div>
+                                        <div class="post-more"><a class="more-link" href="vangogh-starrynight.html">Read
+                                                more</a></div>
+                                    </div>
+                                </div>
+                                <!-- The Starry Night Post -->
+
+                                <!-- Sunflower Post -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="post">
+                                        <div class="post-thumbnail"><a href="vangogh-sunflower.html"><img
+                                                    src="assets/images/post-2.jpg" alt="Blog-post Thumbnail" /></a>
+                                        </div>
+                                        <div class="post-header font-alt">
+                                            <h2 class="post-title"><a href="vangogh-sunflower.html">Sunflower</a></h2>
+                                            <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year
+                                                1890
+                                            </div>
+                                        </div>
+                                        <div class="post-entry font-apple">
+                                            <p><b>The Starry Night</b> is an oil-on-canvas painting by the Dutch
+                                                Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it
+                                                depicts the view from the east-facing window of his asylum room at
+                                                Saint-Rémy-de-Provence, just before sunrise, with the addition of an
+                                                imaginary village.</p>
+                                        </div>
+                                        <div class="post-more"><a class="more-link" href="vangogh-sunflower.html">Read
+                                                more</a></div>
+                                    </div>
+                                </div>
+                                <!-- Sunflower Post -->
+
+                                <!-- Self-Portrait Post -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="post">
+                                        <div class="post-thumbnail"><a href="vangogh-port.html"><img
+                                                    src="assets/images/post-3.jpg" alt="Blog-post Thumbnail" /></a>
+                                        </div>
+                                        <div class="post-header font-alt">
+                                            <h2 class="post-title"><a href="vangogh-port.html">Self-Portrait</a></h2>
+                                            <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year
+                                                1890
+                                            </div>
+                                        </div>
+                                        <div class="post-entry font-apple">
+                                            <p><b>The Starry Night</b> is an oil-on-canvas painting by the Dutch
+                                                Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it
+                                                depicts the view from the east-facing window of his asylum room at
+                                                Saint-Rémy-de-Provence, just before sunrise, with the addition of an
+                                                imaginary village.</p>
+                                        </div>
+                                        <div class="post-more"><a class="more-link" href="vangogh-port.html">Read
+                                                more</a></div>
+                                    </div>
+                                </div>
+                                <!-- Self-Portrait Post -->
+
+                                <!-- CAFÉ TERRACE AT NIGHT Post -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="post">
+                                        <div class="post-thumbnail"><a href="vangogh-terrace.html"><img
+                                                    src="assets/images/post-4.jpg" alt="Blog-post Thumbnail" /></a>
+                                        </div>
+                                        <div class="post-header font-alt">
+                                            <h2 class="post-title"><a href="vangogh-terrace.html">CAFÉ TERRACE AT
+                                                    NIGHT</a></h2>
+                                            <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year
+                                                1890
+                                            </div>
+                                        </div>
+                                        <div class="post-entry font-apple">
+                                            <p><b>The Starry Night</b> is an oil-on-canvas painting by the Dutch
+                                                Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it
+                                                depicts the view from the east-facing window of his asylum room at
+                                                Saint-Rémy-de-Provence, just before sunrise, with the addition of an
+                                                imaginary village.</p>
+                                        </div>
+                                        <div class="post-more"><a class="more-link" href="vangogh-terrace.html">Read
+                                                more</a></div>
+                                    </div>
+                                </div>
+                                <!-- CAFÉ TERRACE AT NIGHT Post -->
+
+                                <!-- BEDROOM IN ARLES Post -->
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="post">
+                                        <div class="post-thumbnail"><a href="vangogh-bedroom.html"><img
+                                                    src="assets/images/post-4.jpg" alt="Blog-post Thumbnail" /></a>
+                                        </div>
+                                        <div class="post-header font-alt">
+                                            <h2 class="post-title"><a href="vangogh-bedroom.html">BEDROOM IN ARLES</a>
+                                            </h2>
+                                            <div class="post-meta">By&nbsp;<a href="#">Vincent Van Gogh</a>&nbsp;| Year
+                                                1890
+                                            </div>
+                                        </div>
+                                        <div class="post-entry font-apple">
+                                            <p><b>The Starry Night</b> is an oil-on-canvas painting by the Dutch
+                                                Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it
+                                                depicts the view from the east-facing window of his asylum room at
+                                                Saint-Rémy-de-Provence, just before sunrise, with the addition of an
+                                                imaginary village.</p>
+                                        </div>
+                                        <div class="post-more"><a class="more-link" href="vangogh-bedroom.html">Read
+                                                more</a></div>
+                                    </div>
+                                </div>
+                                <!-- BEDROOM IN ARLES Post -->
+
+                            </div>
+                        </div>
+                        <!-- 포스트 섹션 -->
+
+                        <!-- Sidebar -->
+                        <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
+                            <div class="widget">
+                                <form role="form">
+                                    <div class="search-box">
+                                        <input class="form-control" type="text" placeholder="Search..." />
+                                        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Gallery Categories</h5>
+                                <ul class="icon-list">
+                                    <li><a href="#">Vincent Van Gogh - 5</a></li>
+                                    <li><a href="#">Leonardo Da Vinci - 3</a></li>
+                                    <li><a href="#">Pablo Picasso - 2</a></li>
+                                    <li><a href="#">Claude Monets - 4</a></li>
+                                    <li><a href="#">Jean-François Millet - 3</a></li>
+                                    <li><a href="#">Paul Gauguin - 2</a></li>
+                                    <li><a href="#">Edvard Munch - 2</a></li>
+                                    <li><a href="#">Andy Warhol - 2</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Popular Piece</h5>
+                                <ul class="widget-posts">
+                                    <li class="clearfix">
+                                        <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-3.jpg"
+                                                    alt="Post Thumbnail" /></a></div>
+                                        <div class="widget-posts-body">
+                                            <div class="widget-posts-title"><a href="#">The Starry Night</a>
+                                            </div>
+                                            <div class="widget-posts-meta">Year 1890</div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-4.jpg"
+                                                    alt="Post Thumbnail" /></a></div>
+                                        <div class="widget-posts-body">
+                                            <div class="widget-posts-title"><a href="#">Sunflower</a></div>
+                                            <div class="widget-posts-meta">Year 1890</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Tag</h5>
+                                <div class="tags font-serif">
+                                    <a href="#" rel="tag">Vincent Van Gogh</a>
+                                </div>
+                            </div>
+
+                            <div class="widget">
+                                <h5 class="widget-title font-alt">Track</h5>The languages only differ in their grammar,
+                                their pronunciation and their most common words. Everyone realizes why a new common
+                                language would be desirable: one could refuse to pay expensive translators.
+                            </div>
+                        </div>
+                        <!-- Sidebar -->
+
+                    </div>
+                </div>
+            </section>
+            <!-- 포스트 및 사이드바 섹션 -->
+
+            <!-- footer -->
+            <hr class="divider-d">
+            <footer class="footer bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="copyright font-alt">&copy; 2023&nbsp;<a href="index.html">ArtGallery</a>, All
+                                Rights Reserved
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a
+                                    href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
+                                        class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer -->
+
+        </div>
+        <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
